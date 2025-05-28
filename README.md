@@ -32,6 +32,7 @@ Acesse o HiveMQ Web Client: https://www.hivemq.com/demos/websocket-client/
 Clique em Connect.
 
 No campo “Subscribe”, digite:
+
 grupo5/reuso
 
 ### Exemplo de mensagem publicada:
