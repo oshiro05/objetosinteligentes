@@ -18,16 +18,9 @@ Este projeto tem como objetivo simular um sistema de monitoramento da qualidade 
 2. Os dados são formatados em JSON.
 3. A cada 5 segundos, os dados são publicados no tópico MQTT `grupo5/reuso` do broker público `broker.hivemq.com`.
 4. Esses dados podem ser visualizados em tempo real via [HiveMQ Web Client](http://www.hivemq.com/demos/websocket-client/).
-
-### Exemplo de mensagem publicada:
-```json
-{"ph": 6.73, "turbidez": 2.48}
-
 ### Como Testar
 Acesse o projeto no Wokwi:
-
-- abrir no Wokwi
-
+https://wokwi.com/projects/432159745510269953
 Inicie a simulação clicando em "Start Simulation".
 
 Observe o Serial Monitor para verificar o envio das mensagens MQTT.
@@ -39,3 +32,9 @@ Acesse o HiveMQ Web Client:
 Clique em Connect.
 
 No campo “Subscribe”, digite:
+grupo5/reuso
+
+### Exemplo de mensagem publicada:
+```json
+{"ph": 6.73, "turbidez": 2.48}
+
