@@ -25,7 +25,7 @@ Inicie a simulação clicando em "Start Simulation".
 
 Observe o Serial Monitor para verificar o envio das mensagens MQTT.
 
-Acesse o HiveMQ Web Client:
+Acesse o HiveMQ Web Client: https://www.hivemq.com/demos/websocket-client/
 
 - HiveMQ WebSocket Client
 
