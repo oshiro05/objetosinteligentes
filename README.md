@@ -22,9 +22,11 @@ Este projeto tem como objetivo simular um sistema de monitoramento da qualidade 
 ### Exemplo de mensagem publicada:
 ```json
 {"ph": 6.73, "turbidez": 2.48}
+
+### Como Testar
 Acesse o projeto no Wokwi:
 
- -abrir no Wokwi
+- abrir no Wokwi
 
 Inicie a simulação clicando em "Start Simulation".
 
@@ -32,10 +34,8 @@ Observe o Serial Monitor para verificar o envio das mensagens MQTT.
 
 Acesse o HiveMQ Web Client:
 
- HiveMQ WebSocket Client
+- HiveMQ WebSocket Client
 
 Clique em Connect.
 
 No campo “Subscribe”, digite:
-“grupo5/reuso”
-Clique em Subscribe para ver os dados recebidos.
